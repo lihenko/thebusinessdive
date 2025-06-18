@@ -11,6 +11,7 @@ export default defineConfig({
         main: 'index.html',
         management: 'management-software.html',
         join: 'join-the-spotlight.html',
+        toppicks: 'top-picks.html',
       }
     }
   },
