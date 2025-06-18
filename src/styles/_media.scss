@@ -13,6 +13,93 @@
             padding-right: 40px;
         }
     }
+    #software-discounts{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    & h2{
+        font-weight: 700;
+        font-size: 36px;
+        color: #6875F2;
+        margin-bottom: 20px;
+    }
+    & .section-subtitle{
+        font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 53px;
+    }
+    & .software-discount-item{
+        border: 1px solid rgb(104, 117, 242);
+        border-radius: 20px;
+        background: rgb(246, 246, 246);
+        margin-bottom: 22px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 34px;
+        & .software-discount-description{
+            display: flex;
+            align-items: center;
+            padding-right: 61px;
+            width: 100%;
+            margin-bottom: 34px;
+            padding-left: 34px;
+            & .software-logo{
+                width: 120px;
+                height: 120px;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                position: relative;
+                margin-bottom: 0;
+            }
+            & .software-data{
+                width: calc(100% - 120px);
+                padding-left: 59px;
+                text-align: left;
+                & h3{
+                    font-weight: 700;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                & p{
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        & .software-discout-data{
+        width: 100%;
+        background-color: #F32284;
+        color: #fff;
+        padding: 55px 43px 46px 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & .btn{
+            width: 155px;
+            text-align: center;
+        }
+        & .software-discount-value{
+            width: calc(100% - 155px);
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 30px;
+            padding-right: 10px;
+            text-align: left;
+            margin-bottom: 0;
+            & p{
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
+    }
+}
 }
 
 @media screen and (min-width: 768px){
@@ -191,7 +278,98 @@
             font-weight: 700;
             margin-bottom: 24px;
         }
+        &.top-picks{
+            padding-top: 200px;
+        }
     }
+    .software-cta-card{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #software-discounts{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+    & h2{
+        font-weight: 700;
+        font-size: 36px;
+        color: #6875F2;
+        margin-bottom: 20px;
+    }
+    & .section-subtitle{
+        font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 53px;
+    }
+    & .software-discount-item{
+        border: 1px solid rgb(104, 117, 242);
+        border-radius: 20px;
+        background: rgb(246, 246, 246);
+        margin-bottom: 22px;
+        overflow: hidden;
+        display: flex;
+        padding-left: 34px;
+        padding-top: 0;
+        & .software-discount-description{
+            display: flex;
+            align-items: center;
+            padding-right: 61px;
+            width: 60%;
+            padding-left: 0;
+            margin-bottom: 0;
+            & .software-logo{
+                width: 120px;
+                height: 120px;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                position: relative;
+
+            }
+            & .software-data{
+                width: calc(100% - 120px);
+                padding-left: 59px;
+                & h3{
+                    font-weight: 700;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                & p{
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        & .software-discout-data{
+        width: 40%;
+        background-color: #F32284;
+        color: #fff;
+        padding: 55px 43px 46px 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & .btn{
+            width: 155px;
+            text-align: center;
+        }
+        & .software-discount-value{
+            width: calc(100% - 155px);
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 30px;
+            padding-right: 10px;
+            & p{
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
+    }
+}
 }
 
 @media screen and (min-width: 1200px){

@@ -12,6 +12,7 @@ export default defineConfig({
         management: 'management-software.html',
         join: 'join-the-spotlight.html',
         toppicks: 'top-picks.html',
+        discounts: 'software-discounts.html',
       }
     }
   },
