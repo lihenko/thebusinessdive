@@ -1,0 +1,292 @@
+@media screen and (min-width: 480px){
+
+}
+
+@media screen and (min-width: 640px){
+    .sm-w-4{
+        width: 33.33%;
+    }
+    #project-management-apps-comparisons{
+        & .app-wrap{
+
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .md-w-6{
+        width: 50%;
+    }
+    #project-management-apps-comparisons{
+        & .app-wrap{
+
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px){
+    .lg-w-3{
+        width: 25%;
+    }
+    .lg-w-4{
+        width: 33.33%;
+    }
+    .lg-w-6{
+        width: 50%;
+    }
+    .lg-block{
+        display: block;
+    }
+    #main-menu{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        & li{
+            padding-left: 10px;
+            padding-right: 10px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            & a{
+                color: #fff;
+                font-size: 16px;
+                text-decoration: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                &:hover{
+                    color: #F32284;
+                }
+            }
+            &.menu-item-has-children::after{
+                content: url(/img/arrow-down.svg);
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                margin-left: 6px;
+            }
+            &.deals-menu-item:before{
+                content: url(/img/fire-icon.svg);
+                width: 18px;
+                height: 18px;
+                display: inline-block;
+                margin-right: 6px;
+            }
+            &:hover ul{
+                display: block;
+            }
+        }
+        
+        & ul{
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            top: 100%;
+            left: 0;
+            width: 200px;
+            margin: 0;
+            padding: 10px;
+            & li{
+                & a{
+                    color: #6875F2;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    &:hover{
+                        color: #F32284;
+                    }
+                }
+            }
+        }
+    }
+    #home-hero{
+        padding-top: 265px;
+        margin-top: -110px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 186px;
+        position: relative;
+        & h1{
+            color: #6875F2;
+            font-size: 66px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+    }
+    #home-youtube{
+        margin-top: -150px;
+    }
+    #home-banner{
+        padding-bottom: 0;
+        & .title-column{
+            font-size: 36px;
+            order:1;  
+            text-align: left;
+        }
+        & .icon-column{
+            order:2;
+            min-height: 424px;
+        }
+        & .button-column{
+            order:3;
+            text-align: right;
+        }
+    }
+    footer{
+        & .footer-logo-column{
+            width: 33.33%;
+        }
+        & .footer-menu-column{
+            width: 66.66%;
+        }
+        & .footer-logo{
+            text-align: left;
+        }
+        & .footer-menu-title{
+            margin-bottom: 80px;
+        }
+        & .footer-copyright{
+            text-align: left;
+        }
+    }
+    #home-contact{
+        & .contact-form-wrap{
+            padding: 65px 48px;
+        }
+    }
+    #project-contact{
+        & .contact-form-wrap{
+            padding: 65px 48px;
+        }
+    }
+    #page-title{
+        padding-top: 160px;
+        margin-top: -140px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 110px;
+        position: relative;
+        & h1{
+            color: #6875F2;
+            font-size: 66px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .featured-row{
+        margin-left: -12.5px;
+        margin-right: -12.5px;
+        & column{
+            padding-left: 12.5px;
+            padding-right: 12.5px;
+        }
+    }
+    .featured-container{
+        margin-top: -104px;
+    }
+    body{
+        font-size: 20px;
+    }
+    #home-banner{
+        & .title-column{
+            width: 519px;
+            padding-top: 60px;
+        }
+        & .icon-column{
+            width: calc(100% - 519px - 260px);
+        }
+        & .button-column{
+            width: 260px;
+        }
+    }
+    .comparison-container{
+        margin-bottom: -100px;
+    }
+    footer{
+        position: relative;
+        & .footer-social-list{
+            gap: 30px;
+        }
+        & .horizontal-line{
+            position: absolute;
+            width: 66.66%;
+            height: 1px;
+            top: 183px;
+            background: linear-gradient(to left, rgba(104, 117, 242, 0.4), rgba(5, 11, 22, 0.4));
+            right: 0;
+        }
+        & .footer-logo-column{
+            padding-right: 40px;
+        }
+        & .footer-menu-column{
+            padding-left: 60px;
+            & .column:nth-child(3){
+                padding-left: 60px;
+            }
+        }
+        & .vertical-line-1{
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            left: 33.33%;
+            background: linear-gradient(to top, rgba(104, 117, 242, 0.4), rgba(5, 11, 22, 0.4));
+            bottom: -46px;
+        }
+        & .vertical-line-2{
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            left: 55.55%;
+            background: linear-gradient(to top, rgba(104, 117, 242, 0.4), rgba(5, 11, 22, 0.4));
+            bottom: -46px;
+        }
+        & .vertical-line-3{
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            left: 77.77%;
+            background: linear-gradient(to top, rgba(104, 117, 242, 0.4), rgba(5, 11, 22, 0.4));
+            bottom: -46px;
+        }
+        & .vertical-line-4{
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            left: 100%;
+            background: linear-gradient(to top, rgba(104, 117, 242, 0.4), rgba(5, 11, 22, 0.4));
+            bottom: -46px;
+        }
+    }
+    .blog-posts-row{
+        margin-bottom: -150px;
+    }
+    .xl-w-4{
+        width: 33.33%;
+    }
+}
+
+
+@media screen and (min-width: 1500px){
+    #main-menu{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #project-management-apps-comparisons{
+        & .app-wrap{
+
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+}
