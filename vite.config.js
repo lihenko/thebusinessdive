@@ -13,6 +13,7 @@ export default defineConfig({
         join: 'join-the-spotlight.html',
         toppicks: 'top-picks.html',
         discounts: 'software-discounts.html',
+        about: 'about.html',
       }
     }
   },
